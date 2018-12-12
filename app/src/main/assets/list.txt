@@ -1,0 +1,91 @@
+obstacle
+person
+bicycle
+car
+motorcycle
+obstacle
+bus
+obstacle
+truck
+boat
+traffic light
+fire hydrant
+obstacle
+stop sign
+obstacle
+bench
+chair
+obstacle
+dog
+obstacle
+obstacle
+obstacle
+obstacle
+obstacle
+obstacle
+obstacle
+obstacle
+backpack
+umbrella
+obstacle
+obstacle
+handbag
+tie
+suitcase
+obstacle
+skis
+snowboard
+sports ball
+kite
+baseball bat
+baseball glove
+skateboard
+surfboard
+tennis racket
+bottle
+obstacle
+wine glass
+cup
+fork
+knife
+spoon
+bowl
+banana
+apple
+sandwich
+orange
+broccoli
+carrot
+obstacle
+pizza
+obstacle
+cake
+chair
+couch
+potted plant
+bed
+obstacle
+table
+obstacle
+obstacle
+chair
+obstacle
+monitor
+laptop
+mouse
+remote
+keyboard
+cell phone
+obstacle
+obstacle
+toaster
+sink
+obstacle
+obstacle
+book
+clock
+vase
+scissors
+obstacle
+hair drier
+toothbrush

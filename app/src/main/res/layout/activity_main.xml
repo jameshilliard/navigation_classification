@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".VideoActivity" >
+
+
+    <SurfaceView
+        android:id="@+id/surfaceView_video"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true" />
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:fadeScrollbars="false"
+        android:maxLines="15"
+        android:scrollbars="vertical"
+        android:gravity="center"
+        android:textColor="@android:color/black" />
+
+    <com.smarteyes.final_v1.OverlayView
+        android:id="@+id/tracking_overlay"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true" />
+
+
+</RelativeLayout>

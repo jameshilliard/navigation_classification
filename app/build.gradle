@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '27.0.1'
+    defaultConfig {
+        applicationId 'com.smarteyes.final'
+        minSdkVersion 21
+        targetSdkVersion 15
+        versionCode 1
+        versionName '1.0'
+        compileOptions{
+            incremental = false
+        }
+
+
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+            }
+        }
+        ndk {
+            abiFilters 'armeabi-v7a'
+        }
+    }
+
+    /*externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }*/
+
+}
+
+dependencies {
+    //implementation files('libs/p2pcore.jar')
+    implementation 'org.tensorflow:tensorflow-android:1.4.0'
+    implementation files('libs/AMap_Location_V3.0.0_20160922.jar')
+}
